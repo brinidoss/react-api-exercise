@@ -17,7 +17,7 @@ export function Quotes() {
             <h1>Famous Quotes</h1>
             <ul>
                 {quote.map((quote, index) => 
-                    <li key={`${quote.author}`}>
+                    <li key={`${quote.author}-${index}`}>
                         <p>{quote.author}: {quote.text}</p>
                     </li>
                 )}
@@ -27,4 +27,3 @@ export function Quotes() {
 }
 
 
-//Promise<any[]> repsonse.data.properties.period =fetchWeather data=periods fetchweather.then(data) data is last thing in collection

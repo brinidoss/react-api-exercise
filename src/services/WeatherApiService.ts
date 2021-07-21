@@ -11,4 +11,3 @@ export function fetchWeather(): Promise<any[]> {
 
 
 
-//Promise<any[]> repsonse.data.properties.period =fetchWeather data=periods fetchweather.then(data) data is last thing in collection

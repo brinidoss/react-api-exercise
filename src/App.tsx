@@ -1,5 +1,6 @@
 
 import './App.css';
+import { BobRossSayings } from './components/BobRoss/BobRoss';
 import { Quotes } from './components/Quotes/Quotes';
 import { WeatherForecast } from './components/Weather/WeatherForecast';
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <WeatherForecast/>
       <Quotes/>
+      <BobRossSayings/>
     </div>
   );
 }
